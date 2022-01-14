@@ -58,3 +58,92 @@ body {
   width: 100px;
   margin-left: 30px;
 }
+
+/* Popular collection */
+.popular-collection {
+  margin: 5rem;
+}
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 5rem;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 50px;
+  place-items: center;
+}
+.card img {
+  height: 256px;
+  width: 300px;
+}
+.card {
+  height: 476px;
+  width: 330px;
+  border: 1px solid rgba(0, 0, 0, 0.055);
+  box-shadow: 30px 30px 20px rgba(0, 0, 0, 0.5);
+  padding: 5%;
+  border-radius: 8px;
+  background-color: #fff;
+}
+.price {
+  font-size: 1.5em;
+}
+.fa-star {
+  font-size: 0.6em;
+  color: goldenrod;
+}
+.empty {
+  color: rgba(0, 0, 0, 0.459);
+}
+span {
+  margin-left: 10px;
+  font-size: 0.9em;
+}
+.review {
+  line-height: 25px;
+}
+.see-more {
+  text-decoration: none;
+  color: #e02c6d;
+  font-weight: 700;
+  font-size: 1.5em;
+  text-align: right;
+}
+/* popular collection ends here */
+
+/* Footer */
+/* .footer {
+  height: 250px;
+  width: 100%;
+  background-color: royalblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff; */
+.footer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  place-items: center;
+  height: 250px;
+  color: white;
+  background-color: #0a0826;
+}
+
+.footer-title {
+  font-size: 2rem;
+  margin-top: 25px;
+}
+.footer p {
+  line-height: 30px;
+}
+.footer-icon .fab {
+  color: white;
+  background-color: #808080;
+  border: 1px solid black;
+  border-radius: 25px;
+  margin: 0 20px;
+}
