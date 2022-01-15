@@ -11,11 +11,40 @@ body {
   font-family: "Merriweather Sans", sans-serif;
   font-family: "Poppins", sans-serif;
 }
+
+/* Header Section */
+.navigation-bar {
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-left {
+  margin-left: 70px;
+}
+.nav-title {
+  font-size: 2em;
+}
+.nav-right {
+  margin-right: 60px;
+}
+.nav-right a {
+  text-decoration: none;
+  color: black;
+  margin-right: 25px;
+  font-size: 1.2em;
+}
+.nav-right a:hover {
+  color: white;
+  background-color: #e02c6d;
+}
 /* Banner Section */
 .banner-container {
   display: flex;
-  max-width: 1500px;
-  height: 100vh;
+  width: 100%;
+  height: 85vh;
   justify-content: center;
   align-items: center;
 }
@@ -63,7 +92,7 @@ body {
 .popular-collection {
   margin: 5rem;
 }
-h2 {
+.center-title {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 5rem;
@@ -135,7 +164,7 @@ span {
 
 .footer-title {
   font-size: 2rem;
-  margin-top: 25px;
+  margin-top: 35px;
 }
 .footer p {
   line-height: 30px;
@@ -145,5 +174,6 @@ span {
   background-color: #808080;
   border: 1px solid black;
   border-radius: 25px;
-  margin: 0 20px;
+  margin: 10px 20px;
+  padding: 15px;
 }
